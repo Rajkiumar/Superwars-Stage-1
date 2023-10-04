@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.arena{
+    display: grid;
+    grid-template-columns: repeat(2,150px) 300px repeat(2,150px);
+    grid-column-gap: 15px;
+}
+
+.arena-box{
+    height: 250px;
+    width: 100%;
+    border: 3px solid #d4d4d4;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arena-score{
+    height: 250px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.arena-score p{
+    font-size: 70px;
+}
+
+.arena-box img {
+    height: 120px;
+    width: 110px;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 20px;
+}
+.strength{
+    font-weight: 400;
+    font-size: 50px;
+}
